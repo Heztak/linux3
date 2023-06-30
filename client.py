@@ -3,7 +3,7 @@
 import requests
 
 # Define la URL del servidor
-SERVER_URL = "http://192.168.10.222:8080"
+SERVER_URL = "http://192.168.159.132:8080"
 
 # Define una función para ingresar un ID
 def ingresar_id(prompt):
