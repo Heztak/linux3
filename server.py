@@ -1,7 +1,7 @@
 ## Lian Valenzuela || Juan Narria
 
 # Importa los módulos necesarios
-from Flask import Flask, request, jsonify
+from flask import Flask, request, jsonify
 
 # Crea una nueva aplicación Flask
 app = Flask(__name__)
@@ -52,4 +52,4 @@ def get_game_result():
 
 # Ejecuta la aplicación si este script se ejecuta directamente
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=8080)
+    app.run(host='192.168.159.132', port=8080)
